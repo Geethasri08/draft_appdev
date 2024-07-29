@@ -1,0 +1,37 @@
+.view-schedule-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .view-schedule-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #333;
+  }
+  
+  .stdd-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .stdd {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .stdd p {
+    margin: 5px 0;
+    color: #333;
+  }
+  
+  .stdd p strong {
+    color: #555;
+  }

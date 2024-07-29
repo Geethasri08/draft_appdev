@@ -1,0 +1,97 @@
+/* TimeOffRequest.css */
+
+.time-off-request-container {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .time-off-request-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 25px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .message {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #28a745;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .request-item {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  }
+  
+  .request-item.accepted,
+  .request-item.declined {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  
+  .accept-btn,
+  .decline-btn {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .accept-btn {
+    background-color: #28a745;
+    color: white;
+    margin-right: 5px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .accept-btn:hover {
+    background-color: #218838;
+  }
+  
+  .decline-btn {
+    background-color: #dc3545;
+    color: white;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .decline-btn:hover {
+    background-color: #c82333;
+  }
+  
+  .status {
+    display: flex;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .status.accepted {
+    color: #28a745;
+  }
+  
+  .status.declined {
+    color: #dc3545;
+  }
+  
+  .status .fa {
+    margin-right: 5px;
+  }

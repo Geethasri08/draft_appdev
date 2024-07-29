@@ -1,0 +1,62 @@
+{
+  "shifts": [
+    {
+      "id": "1",
+      "name": "Geetha sri M",
+      "date": "2024-07-13",
+      "time": "9am-12am",
+      "location": "Coimbatore",
+      "requiredStaff": "1",
+      "staffDetails": [
+        {
+          "id": 1,
+          "name": "John Doe"
+        }
+      ]
+    },
+    {
+      "id": "415",
+      "name": "sales",
+      "date": "2024-07-12",
+      "time": "9am-12am",
+      "location": "Coimbatore",
+      "requiredStaff": "3",
+      "staffDetails": [
+        {
+          "id": 1,
+          "name": "bhannu"
+        },
+        {
+          "id": 2,
+          "name": "akshu"
+        },
+        {
+          "id": 3,
+          "name": "darshu"
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "email": "727722euai004@skcet.ac.in",
+      "password": "hjafvcnz,eukr",
+      "id": 1
+    },
+    {
+      "email": "727722euai089@skcet.ac.in",
+      "password": "efgchguykyu",
+      "id": 2
+    },
+    {
+      "email": "727722euai012@skcet.ac.in",
+      "password": "ssfcvb,ljkij",
+      "id": 3
+    },
+    {
+      "email": "727722euai012@skcet.ac.in",
+      "password": "sajhg bjc;;IURIO4 B",
+      "id": 4
+    }
+  ]
+}
